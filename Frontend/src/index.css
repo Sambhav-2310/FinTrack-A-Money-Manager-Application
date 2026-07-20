@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background: #fcfbfc;
+  overflow-x: hidden;
+}
+
+.card {
+  @apply bg-white rounded-2xl p-6 shadow-sm border border-gray-100;
+}
