@@ -21,11 +21,11 @@ This project demonstrates strong understanding of:
 # 🏗️ System Architecture
 
 ```
-React.js Frontend (Netlify)
+React.js Frontend
           ↓
        REST APIs
           ↓
-Spring Boot Backend (Render)
+Spring Boot Backend
           ↓
      MySQL Database
 ```
@@ -56,11 +56,6 @@ Spring Boot Backend (Render)
 - Lucide React Icons
 - Recharts
 - Emoji Picker
-
-## ☁️ Deployment
-
-- Render (Backend)
-- Netlify (Frontend)
 
 ## 📧 Third-Party Services
 
@@ -146,7 +141,6 @@ Backend/
 │   │
 │   └── resources/
 │       ├── application.properties
-│       ├── application-prod.properties
 │       └── static/
 │
 ├── .mvn/
@@ -442,18 +436,6 @@ http://localhost:5173
 
 ---
 
-# ☁️ Deployment Guide
-
-## Backend Deployment
-
-- Deploy Spring Boot Backend on **Render**
-
-## Frontend Deployment
-
-- Deploy React Frontend on **Netlify**
-
----
-
 # 🔄 API Communication Example
 
 ```javascript
@@ -473,22 +455,6 @@ axios.get("/api/v1.0/dashboard", {
 - Chrome DevTools
 - Browser Network Inspector
 - Render Deployment Logs
-
----
-
-# 📸 Screenshots
-
-Add screenshots for:
-
-- Login Page
-- Registration Page
-- Dashboard
-- Add Income
-- Add Expense
-- Category Management
-- Dashboard Charts
-- Filter Transactions
-- Profile Page
 
 ---
 
